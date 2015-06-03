@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     
     @IBAction func sendMailButtonPress(sender: UIButton) {
         //All about the text in messageLable
+        //Hey you guuuys!
         messageLabel.hidden = false
         messageLabel.text   = enterMsgTextField.text
         messageLabel.textColor = UIColor.purpleColor()
